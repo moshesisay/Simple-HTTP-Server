@@ -1,0 +1,30 @@
+# Simple HTTP Server
+
+This project implements a basic HTTP server using Python's built-in `http.server` module. The server responds to GET and POST requests with simple HTML and JSON responses.
+
+## Features
+
+- **GET Request Handling**: Responds with a simple HTML page displaying "HELLO WORLD!".
+- **POST Request Handling**: Returns the current server time in JSON format.
+- **Customizable Host and Port**: Easily configurable to run on any IP address and port.
+
+## Setup
+
+1. Ensure you have Python installed (Python 3.x recommended).
+2. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
+3. Run the server:
+   ```bash
+   python main.py
+   ```
+4. Access the server in your web browser at `http://192.168.20.154:9999`.
+
+## Usage
+
+- **GET Request**: Navigate to the server URL in your web browser to see the HTML response.
+- **POST Request**: Use a tool like Postman or curl to send a POST request to the server. The server will respond with the current time in JSON format.
+
+
